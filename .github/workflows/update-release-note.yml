@@ -20,6 +20,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Draft Release
-        uses: release-drafter/release-drafter@v5
+        uses: release-drafter/release-drafter@v6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
